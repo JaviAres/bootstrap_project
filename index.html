@@ -3,21 +3,21 @@
 
 <head>
   <title>El maletín de Kaiba</title>
-  <!-- Required meta tags -->
+  <!-- Etiquetas Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="shortcut icon" href="images/icono-tienda.ico" type="image/x-icon">
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">LOGO</a>
+        <a class="navbar-brand" href="#"><img src="images/logo-tienda.png" alt="Logo Tienda" id="logo"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
@@ -38,6 +38,7 @@
     </nav>
   </header>
   <main>
+    <!--Carrusel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,102 +80,147 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </main>
-  <footer>
-<!-- Footer -->
-<footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>¿Quieres que te avisemos de las novedades? Inscribete:</strong>
-            </p>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21">Correo Electrónico</label>
+    <!--Contenido, Novedades y enlaces-->
+    <div class="container-fluid" id="novedades">
+      <div class="d-flex justify-content-between align-items-center w-100 mb-4 pb-1 border-bottom border-dark"><h2>Tendencias</h2></div>
+        <div class="row">
+          <div class="col">
+            <img src="images/photonbox.png" alt="Novedad-1" class="img-fluid" id="novedades" style="max-height: 370px;">
+            <div class="row">
+              <div class="col">Caja Photon Hypernova</div>
+            </div>
+            <div class="row">
+              <div class="col">60$</div>
             </div>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Suscribir
-            </button>
+          <div class="col"> 
+            <img src="images/structuredw.png" alt="Novedad-2" class="img-fluid" id="novedades" style="max-height: 350px;">
+            <div class="row">
+              <div class="col">Deck Estructura Mundo Oscuro</div>
+            </div>
+            <div class="row">
+              <div class="col">9$</div>
+            </div>
           </div>
-          <!--Grid column-->
+          <div class="col">
+            <img src="images/magnificentmavensbox.png" alt="Novedad-3" class="img-fluid" id="novedades">
+            <div class="row">
+              <div class="col">Caja Expertas Magnificas</div>
+            </div>
+            <div class="row">
+              <div class="col">21$</div>
+            </div>
+          </div>
+          </div>
         </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
+    </div>
 
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div><h1  class="d-flex justify-content-between align-items-center w-100 mb-4 pb-1 border-bottom border-dark">Nuevo Set</h1></div>
+          <!--Animacion delante-->
+          <div class="flip-card" tabIndex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <h3><img src="images/amazingdefenders.png" alt="Set Nuevo" class="img-fluid" style="margin-top: 30px;"></h3>
+              </div>
+              <!--Animacion detras-->
+              <div class="flip-card-back">
+                <div id="carta-detras">
+                <h3 style="color:black;">Amazing defenders</h3>
+                <a href="html/inventory.html"><button type="button" class="btn btn-dark">¡Ver Ahora!</button></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col">
+          <h1 class="d-flex justify-content-between align-items-center w-100 mb-4 pb-1 border-bottom border-dark">¡Ven al Local!</h1>
+          <!--Animacion delante-->
+          <div class="flip-card" tabIndex="0">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+              <img src="images/mesasjuego.png" alt="Set Nuevo" class="img-fluid">
+              </div>
+              <!--Animacion detras-->
+              <div class="flip-card-back">
+                <div id="carta-detras">
+                <h3 style="color:black">¡Reserva una mesa!</h3>
+                <a href="html/inventory.html"><button type="button" class="btn btn-dark">Reservas</button></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <!-- Section: Links -->
-  
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2023 Copyright:
-    <a class="text-white" href="index.html">EL Maletin De Kaiba</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i>
+        </a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i>
+        </a>
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>¿Quieres que te avisemos de las novedades? Inscribete:</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Correo Electrónico</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Suscribir
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="index.html">EL Maletin De Kaiba</a>
+    </div>
   </footer>
   <!-- Bootstrap JavaScript Libraries --> 
   <script src="js/bootstrap.min.js"></script>
