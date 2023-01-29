@@ -62,3 +62,25 @@
 #logo{
     width: 100px;
 }
+
+#logo-reserva-confirmado{
+ width: 200px;
+}
+
+#reserva-disponible{
+    margin-left: 30px;
+    color: green;
+}
+
+#reserva-no-disponible{
+    margin-left: 30px;
+    color: red;
+}
+#imagen-ocupado{
+    margin-top: 50px;
+}
+
+#boton-reserva{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
